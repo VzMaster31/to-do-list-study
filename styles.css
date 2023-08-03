@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+input[type="text"] { /* for select input with type is text */
+    padding: 12px;
+    font-size: 16px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+button {
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+button .delete-button {
+    padding: 4px 10px;
+    font-size: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #888;
+}
